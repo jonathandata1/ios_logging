@@ -1,0 +1,243 @@
+0���	*�H�����y0��u10	`�He0�x�	*�H����x��x�<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>cs</key>
+		<string>Profil „Diagnostika jednotného podnikového přihlašování“ generuje soubory, které společnosti Apple umožňují řešit problémy s vaším zařízením a pomáhají jí zdokonalovat produkty a služby. Vygenerované soubory obsahují informace o vaší síťové aktivitě na tomto zařízení, včetně toho, jaké jste navštívili webové stránky a jaké používáte aplikace. Profil po 3 dnech vyprší.
+                
+                Profil odstraníte tak, že přejdete do Předvoleb systému, kliknete na Profily, vyberete profil „Diagnostika jednotného podnikového přihlašování“ a klepnutím na tlačítko „–“ ho smažete.
+                
+                Zapnutím tohoto diagnostického nástroje a posláním kopií vygenerovaných souborů společnosti Apple vyjadřujete souhlas s tím, že Apple může obsah těchto souborů používat v souladu se svými zásadami ochrany soukromí (http://www.apple.com/legal/privacy/cz).</string>
+		<key>da</key>
+		<string>Beskrivelsen Diagnosticering af enkeltlogin for virksomheder opretter arkiver, der giver Apple mulighed for at foretage fejlfinding af problemer med din enhed, og hjælper dermed Apple med at forbedre sine produkter og tjenester. De oprettede arkiver indeholder oplysninger om din netværksaktivitet på denne enhed, herunder de websteder, du besøger, og de apps du bruger. Denne beskrivelse udløber efter 3 dage.
+                
+                Hvis du vil fjerne denne beskrivelse, skal du gå til "Systemindstillinger", vælge "Beskrivelser", vælge beskrivelsen "Diagnosticering af enkeltlogin for virksomheder" og slette den ved at vælge "-".
+                
+                Ved at aktivere dette diagnosticeringsværktøj og sende en kopi af de oprettede arkiver til Apple accepterer du, at Apple bruger indholdet af nævnte arkiver i henhold til anonymitetspolitikken (http://www.apple.com/legal/privacy/dk).</string>
+		<key>de</key>
+		<string>Das Profil "Enterprise Single Sign-On Diagnostics" (Diagnose für Unternehmens-Gesamtauthentifizierung) generiert Dateien, mit denen Apple Probleme mit Ihrem Gerät beheben und Apple-Produkte und -Dienste weiter verbessern kann. Die generierten Dateien enthalten Informationen über Ihre Netzwerkaktivitäten auf diesem Gerät, einschließlich der von Ihnen besuchten Websites und der von Ihnen verwendeten Apps. Dieses Profil läuft nach 3 Tagen ab.
+                
+                Um dieses Profil zu löschen, öffnen Sie "Systemeinstellungen", tippen Sie auf "Profile", wählen Sie "Diagnose für Unternehmens-Gesamtauthentifizierung", und führen Sie den Löschvorgang durch Auswählen von "–" aus.
+                
+                Indem Sie dieses Diagnosetool aktivieren und eine Kopie der generierten Dateien an Apple senden, erklären Sie sich damit einverstanden, dass Apple den Inhalt dieser Dateien entsprechend seiner Datenschutzrichtlinie verwenden darf (http://www.apple.com/legal/privacy/de-ww).</string>
+		<key>el</key>
+		<string>Το προφίλ «Enterprise Single Sign-On Diagnostics» δημιουργεί αρχεία που δίνουν τη δυνατότητα στην Apple να αντιμετωπίζει τα προβλήματα που προκύπτουν με τη συσκευή σας και να βελτιώνει τα προϊόντα και τις υπηρεσίες της. Τα αρχεία που θα δημιουργηθούν θα περιέχουν πληροφορίες σχετικά με τη δραστηριότητα δικτύου σας σε αυτήν τη συσκευή, συμπεριλαμβανομένων των ιστότοπων που επισκέπτεστε και των εφαρμογών που χρησιμοποιείτε. Αυτό το προφίλ θα λήξει μετά από 3 ημέρες.
+                
+                Για να καταργήσετε αυτό το προφίλ, μεταβείτε στις «Προτιμήσεις συστήματος», επιλέξτε «Προφίλ», στη συνέχεια, επιλέξτε το προφίλ «Enterprise Single Sign-On Diagnostics» και διαγράψτε το με το «-».
+                
+                Με την ενεργοποίηση αυτού του διαγνωστικού εργαλείου και με την αποστολή ενός αντιγράφου των αρχείων που δημιουργήθηκαν στην Apple, συμφωνείτε ότι η Apple μπορεί να χρησιμοποιεί το περιεχόμενο αυτών των αρχείων σύμφωνα με την πολιτική απορρήτου της (https://www.apple.com/legal/privacy/gr/).</string>
+		<key>en</key>
+		<string>The Enterprise Single Sign-On Diagnostics Profile generates files that allow Apple to troubleshoot issues with your device and help Apple to improve its products and services. The generated files may contain some of your personal information, including information about your network usage. This profile will expire after 3 days.
+                
+                To remove this profile, go to 'System Preferences', select 'Profiles', select the 'Enterprise Single Sign-On Diagnostics' Profile, and delete it by selecting '-'.
+                
+                By enabling this diagnostic tool and sending a copy of the generated files to Apple, you are consenting to Apple’s use of the content of such files in accordance with its privacy policy (http://www.apple.com/legal/privacy).</string>
+		<key>es-419</key>
+		<string>El perfil Enterprise Single Sign-On Diagnostics genera una serie de archivos que permiten a Apple solucionar los problemas de tu dispositivo y mejorar sus productos y servicios. Los archivos generados contienen información sobre tu actividad de red en este dispositivo, incluidos los sitios web que visitas y las aplicaciones que usas. Este perfil caducará pasados 3 días.
+                
+                Para eliminar este perfil, ve a Preferencias del Sistema, selecciona Perfiles y, después, Enterprise Single Sign-On Diagnostics. Por último, puedes eliminar el perfil seleccionando “-”.
+                
+                Al activar esta herramienta de diagnóstico y enviar una copia de los archivos generados a Apple, aceptas que Apple utilice el contenido de dichos archivos de conformidad con su política de privacidad (http://www.apple.com/legal/privacy/es).</string>
+		<key>es-la</key>
+		<string>El perfil de diagnóstico de Enterprise Single Sign-on genera archivos que le permiten a Apple resolver problemas con tu dispositivo y ayudan a mejorar sus productos y servicios. En los archivos generados, se incluirá información sobre la actividad de red del dispositivo, incluidos los sitios web que visites y las apps que uses. Este perfil vencerá después de 3 días.
+                
+                Para eliminar este perfil, ve a Preferencias del Sistema, selecciona Perfiles, selecciona el perfil de diagnóstico de Enterprise Single Sign-On y, por último, selecciona “-”.
+                
+                Al activar esta herramienta de diagnóstico y enviar una copia de los archivos generados a Apple, aceptas que Apple use el contenido de dichos archivos de acuerdo con su política de privacidad (http://www.apple.com/legal/privacy/es-la).</string>
+		<key>es-mx</key>
+		<string>El perfil de diagnóstico de Enterprise Single Sign-on genera archivos que le permiten a Apple resolver problemas con tu dispositivo y ayudan a mejorar sus productos y servicios. En los archivos generados, se incluirá información sobre la actividad de red del dispositivo, incluidos los sitios web que visites y las apps que uses. Este perfil vencerá después de 3 días.
+                
+                Para eliminar este perfil, ve a Preferencias del Sistema, selecciona Perfiles, selecciona el perfil de diagnóstico de Enterprise Single Sign-On y, por último, selecciona “-”.
+                
+                Al activar esta herramienta de diagnóstico y enviar una copia de los archivos generados a Apple, aceptas que Apple use el contenido de dichos archivos de acuerdo con su política de privacidad (http://www.apple.com/legal/privacy/es-la).</string>
+		<key>fi</key>
+		<string>Yritysten kertakirjautumisen diagnostiikkaprofiili luo tiedostoja, joiden avulla Apple voi määrittää laitteessasi olevia vikoja ja kehittää tuotteitaan ja palvelujaan. Luodut tiedostot sisältävät tietoja laitteen verkon käytöstä, mukaan lukien vierailemasi verkkosivustot ja käyttämäsi apit. Tämä profiili on voimassa kolme päivää.
+                
+                Jos haluat poistaa tämän profiilin, valitse Järjestelmäasetukset &gt; Profiilit, valitse yritysten kertakirjautumisen diagnostiikan profiili ja poista se valitsemalla -.
+                
+                Jos otat tämän diagnostiikkatyökalun käyttöön ja lähetät luoduista tiedostoista kopion Applelle, annat Applelle luvan käyttää näiden tiedostojen sisältöä tietosuojakäytäntönsä mukaisesti (http://www.apple.com/legal/privacy/fi/).</string>
+		<key>fr</key>
+		<string>Le profil Diagnostics de l’authentification unique d’entreprise génère des fichiers qui permettent à Apple de résoudre des problèmes liés à votre appareil et l’aident à améliorer ses produits et services. Les fichiers générés contiendront des informations à propos de votre activité réseau sur cet appareil, notamment les sites web auxquels vous accédez et les apps que vous utilisez. Ce profil expire au bout de trois jours.
+                
+                Pour supprimer ce profil, accédez à « Préférences Système », sélectionnez « Profils », choisissez le profil « Diagnostics authentification unique d’entreprise » et supprimez-le en sélectionnant « - ».
+                
+                En activant cet outil de diagnostic et en envoyant une copie des fichiers générés à Apple, vous acceptez qu’Apple utilise le contenu de ces fichiers conformément à son engagement de confidentialité (https://www.apple.com/legal/privacy/fr-ww).</string>
+		<key>hr</key>
+		<string>Profil Enterprise Single Sign-On Diagnostics generira datoteke koje tvrtki Apple omogućuju otklanjanje poteškoća s uređajem i pridonose poboljšanju proizvoda i servisa tvrtke Apple. Generirane datoteke sadržavat će podatke o vašoj mrežnoj aktivnosti na ovom uređaju, uključujući web-stranice koje posjećujete i aplikacije koje upotrebljavate. Profil istječe za 3 dana.
+                
+                Da biste uklonili taj profil, idite na „Postavke sustava”, odaberite „Profili”, a zatim profil „Enterprise Single Sign-On Diagnostics” i izbrišite ga odabirom znaka „-”.
+                
+                Kada omogućite taj dijagnostički alat i slanje kopije generiranih datoteka tvrtki Apple, pristajete na to da Apple koristi njihov sadržaj u skladu sa svojim pravilima o zaštiti privatnosti (http://www.apple.com/legal/privacy/hr/).</string>
+		<key>hu</key>
+		<string>A Vállalati egyszeri bejelentkezéses diagnosztikai profil által generált fájlok segítségével az Apple el tudja végezni készülékének hibaelhárítását, és a profil révén az Apple tökéletesíteni tudja termékeit és szolgáltatásait. A generált fájlok a készüléken végzett hálózati tevékenységekről – például a meglátogatott webhelyekről és a használt alkalmazásokról – fognak információkat tartalmazni. Ez a profil 3 napon belül lejár.
+                
+                A profil eltávolításához lépjen a „Rendszerbeállítások” ablakba, válassza ki a „Profilok” ikont, majd a „Vállalati egyszeri bejelentkezéses diagnosztika” elemet, végül pedig törölje a profilt a „-” elem kiválasztásával.
+                
+                A diagnosztikai eszköz használatának engedélyezésével és a generált fájlok Apple-nek való elküldésével Ön beleegyezik, hogy az Apple az adatvédelmi szabályzata (http://www.apple.com/legal/privacy/hu) szerint használja fel a fájlokat.</string>
+		<key>id</key>
+		<string>Profil Diagnostik Masuk Tunggal Perusahaan menghasilkan file yang memungkinkan Apple menyelesaikan masalah pada perangkat Anda dan membantu Apple meningkatkan produk dan layanannya. File yang dihasilkan berisi informasi tentang aktivitas jaringan Anda di perangkat ini, yang mencakup situs web yang Anda kunjungi dan app yang Anda gunakan. Profil ini akan kedaluwarsa setelah 3 hari.
+                
+                Untuk menghapus profil ini, buka 'Preferensi Sistem', pilih 'Profil', pilih Profil 'Diagnostik Masuk Tunggal Perusahaan', dan hapus profil dengan memilih '-'.
+                
+                Dengan mengaktifkan alat diagnostik ini dan mengirimkan salinan file yang dihasilkan kepada Apple, Anda menyetujui penggunaan Apple atas konten file tersebut sesuai dengan kebijakan privasinya (http://www.apple.com/legal/privacy/id).</string>
+		<key>it</key>
+		<string>Il profilo Diagnostica Accesso unico Enterprise genera file che consentono a Apple di risolvere i problemi relativi al tuo dispositivo e migliorare i propri prodotti e servizi. I file generati conterranno informazioni relative alle operazioni online che esegui sul tuo dispositivo, inclusi i siti web che consulti e le app che utilizzi. Il profilo scade dopo 3 giorni.
+                
+                Per rimuovere questo profilo, vai su “Preferenze di Sistema”, seleziona “Profili”, seleziona il profilo “Diagnostica Accesso Unico Enterprise” ed eliminalo selezionando “-”.
+                
+                Abilitando questo strumento di diagnostica e inviando una copia dei file generati a Apple, acconsenti all'uso da parte di Apple di tali file in conformità alla politica sulla privacy (https://www.apple.com/legal/privacy/it/).</string>
+		<key>ja</key>
+		<string>Enterprise Single Sign-On Diagnostics Profile を使うと、ファイルが生成されます。Apple はこのファイルをもとに、お客様のデバイスに関する問題のトラブルシューティングを行ったり、製品やサービスの改善のために活用したりします。生成されたファイルには、お客様がアクセスした Web サイトや使用した App を含む、このデバイスでのネットワークアクティビティに関する情報が含まれています。このプロファイルは 3 日後に有効期限切れとなります。
+                
+                このプロファイルを削除するには、システム環境設定で「プロファイル」＞「Enterprise Single Sign-On Diagnostics」プロファイルの順に選択し、「-」を選択して削除します。
+                
+                この診断ツールを有効にし、生成されたファイルを Apple に送信することにより、お客様は、Apple がプライバシーポリシー (http://www.apple.com/legal/privacy/jp/) に従ってこれらのファイルの内容を利用することに同意したとみなされます。</string>
+		<key>ko</key>
+		<string>기업용 단일 로그인 진단 프로파일이 생성한 파일은 Apple이 사용자의 기기에서 발생한 문제를 해결하고 Apple 제품 및 서비스를 개선하는 데 유용하게 사용됩니다. 생성된 파일에는 사용자가 방문한 웹 사이트 및 사용한 앱을 포함하여 이 기기의 네트워크 활동에 관한 정보가 포함됩니다. 이 프로파일은 3일 후에 만료됩니다.
+                
+                이 프로파일을 제거하려면 '시스템 환경설정'으로 이동하여 '프로파일', '기업용 단일 로그인 진단' 프로파일을 차례로 선택한 후 '-' 모양을 선택하여 삭제합니다.
+                
+                이 진단 도구를 활성화하고 생성된 파일의 복사본을 Apple로 보내면 Apple이 개인정보 처리방침(http://www.apple.com/legal/privacy/kr/)에 따라 해당 파일의 콘텐츠를 사용하는 것에 동의하는 것입니다.</string>
+		<key>nl</key>
+		<string>Het profiel 'Diagnostische informatie over eenmalige aanmelding voor bedrijven' genereert bestanden waarmee Apple problemen met uw apparaat kan oplossen en waarmee Apple zijn producten en services kan verbeteren. De gegenereerde bestanden bevatten informatie over uw netwerkactiviteit op dit apparaat, zoals de websites die u bezoekt en de apps die u gebruikt. Dit profiel verloopt na drie dagen.
+                
+                Als u dit profiel wilt verwijderen, opent u Systeemvoorkeuren, kiest u 'Profielen' en selecteert u het profiel 'Diagnostische informatie over eenmalige aanmelding voor bedrijven'. Vervolgens verwijdert u het profiel door op '-' te klikken.
+                
+                Als u deze diagnostische tool inschakelt en een kopie van de gegenereerde bestanden naar Apple verzendt, gaat u ermee akkoord dat Apple de inhoud van dergelijke bestanden gebruikt in overeenstemming met het privacybeleid (http://www.apple.com/legal/privacy/nl).</string>
+		<key>no</key>
+		<string>Enterprise Single Sign-On Diagnostics-profilen oppretter filer som Apple bruker til å løse problemer med enheten din, og til å forbedre Apples produkter og tjenester. Filene som opprettes, inneholder informasjon om nettverksaktiviteten din på den enheten, inkludert nettstedene du besøker, og appene du bruker. Profilen utløper etter 3 dager.
+                
+                Hvis du vil fjerne denne profilen, går du til 'Systemvalg', velger 'Profiler' og trykker på profilen 'Enterprise Single Sign-On Diagnostics'. Slett profilen ved å trykke på '–' (minustegnet).
+                
+                Når du aktiverer dette feilsøkingsverktøyet og sender Apple en kopi av filene som opprettes, samtykker du i at Apple kan bruke innholdet i slike filer i henhold til Apples retningslinjer for personvern (https://www.apple.com/legal/privacy/no).</string>
+		<key>pl</key>
+		<string>Profil Enterprise Single Sign-On Diagnostics generuje pliki, które umożliwiają firmie Apple rozwiązywanie problemów z Twoim urządzeniem i pomagają jej w ulepszaniu oferowanych przez nią produktów i usług. Wygenerowane pliki będą zawierały informacje na temat aktywności sieciowej na tym urządzeniu, w tym informacje o odwiedzanych witrynach i używanych aplikacjach. Ten profil wygasa po 3 dniach.
+                
+                Aby usunąć ten profil, otwórz Preferencje systemowe, wybierz opcję Profile, wybierz profil Enterprise Single Sign-On Diagnostics i usuń go, wybierając opcję „-”.
+                
+                Włączając to narzędzie diagnostyczne i wysyłając kopię wygenerowanych plików do firmy Apple, zgadzasz się na wykorzystanie zawartości tych plików przez firmę Apple zgodnie z przyjętymi przez nią zasadami ochrony prywatności (http://www.apple.com/legal/privacy/pl/).</string>
+		<key>pt</key>
+		<string>O Perfil “Diagnóstico do início de sessão único empresarial” gera ficheiros que permitem à Apple efetuar a resolução de problemas no seu dispositivo e ajudam a Apple a melhorar os respetivos produtos e serviços. Os ficheiros gerados irão conter informações sobre a atividade da sua rede neste dispositivo, incluindo os sites acedidos e as apps utilizadas. Este perfil irá expirar após 3 dias.
+                
+                Para remover este perfil, aceda a Preferências do sistema, selecione Perfis, selecione o Perfil "Diagnóstico do início de sessão único empresarial" e apague-o ao selecionar "-".
+                
+                Ao ativar esta ferramenta de diagnóstico e enviar uma cópia dos ficheiros gerados para a Apple, estará a consentir que a mesma utilize os conteúdos dos ficheiros de acordo com a respetiva Política de privacidade (https://www.apple.com/legal/privacy/pt/).</string>
+		<key>pt-br</key>
+		<string>O Perfil de diagnóstico Single Sign-On Empresarial gera arquivos que permitem à Apple solucionar problemas com o dispositivo e ajudam a melhorar seus produtos e serviços. Os arquivos gerados conterão informações sobre sua atividade de rede neste dispositivo, incluindo os sites que você acessa e os apps que utiliza. Este perfil expirará após 3 dias.
+                
+                Para remover esse perfil, acesse "Preferências do Sistema", selecione "Perfis", selecione o perfil "Diagnóstico do Single Sign-On Empresarial" e apague-o ao selecionar "-".
+                
+                Ao ativar a ferramenta de diagnóstico e enviar uma cópia dos arquivos gerados para a Apple, você autoriza a Apple a usar o conteúdo desses arquivos de acordo com sua política de privacidade (http://www.apple.com/legal/privacy/br).</string>
+		<key>ro</key>
+		<string>Profilul Diagnoză autentificare unică organizațională generează fișiere care îi permit companiei Apple să depaneze problemele legate de dispozitivul tău și care o ajută să-și îmbunătățească produsele și serviciile. Fișierele generate vor conține informații despre activitatea ta în rețea de pe acest dispozitiv, inclusiv site-urile web pe care le vizitezi și aplicațiile pe care le folosești. Acest profil va expira după 3 zile.
+                
+                Pentru a elimina acest profil, accesează „Preferințe sistem”, selectează „Profiluri”, apoi profilul „Diagnoză autentificare unică organizațională” și șterge-l selectând „-”.
+                
+                Prin activarea acestui instrument de diagnosticare și trimiterea unei copii a fișierelor generate către Apple, consimți utilizarea de către Apple a conținutului acestor fișiere în conformitate cu politica sa de confidențialitate (http://www.apple.com/legal/privacy/ro/).</string>
+		<key>ru</key>
+		<string>Профиль диагностики службы единого входа для корпоративных клиентов генерирует файлы, которые позволяют Apple находить и устранять неполадки устройства, а также улучшать свои продукты и услуги. Сгенерированные файлы содержат информацию о сетевой активности на этом устройстве, включая просматриваемые веб-сайты и используемые программы. Срок действия профиля истекает через 3 дня.
+                
+                Чтобы удалить профиль, перейдите в меню «Системные настройки», щелкните значок «Профили», выделите профиль «Диагностика службы единого входа для корпоративных клиентов» и удалите его с помощью кнопки «–».
+                
+                Включая это средство диагностики и отправляя копию сгенерированных файлов в компанию Apple, вы разрешаете ей использовать содержимое этих файлов в соответствии с ее политикой конфиденциальности (http://www.apple.com/legal/privacy/ru/).</string>
+		<key>sk</key>
+		<string>Profil Enterprise Single Sign-On Diagnostics Profile (Profil diagnostiky jediného podnikového prihlásenia) vytvára súbory, ktoré spoločnosti Apple umožňujú riešiť problémy s vaším zariadením a pomáhajú jej vylepšovať svoje produkty a služby. Vygenerované súbory obsahujú informácie o vašej sieťovej aktivite na tomto zariadení vrátane navštívených webových stránok a používaných aplikácií. Platnosť profilu uplynie po 3 dňoch.
+                
+                Tento profil odstránite tak, že prejdete do okna Systémové nastavenia, vyberiete položku Profily, vyberiete položku Enterprise Single Sign-On Diagnostics Profile a kliknutím na tlačidlo „–“ vymažete profil.
+                
+                Zapnutím tohto diagnostického nástroja a odoslaním kópie vytvorených súborov spoločnosti Apple vyjadrujete svoj súhlas s používaním obsahu takýchto súborov spoločnosťou Apple v súlade s jej zásadami ochrany osobných údajov (https://www.apple.com/legal/privacy/sk/).</string>
+		<key>th</key>
+		<string>โปรไฟล์การวินิจฉัยการลงชื่อเพียงครั้งเดียวสำหรับองค์กรสร้างไฟล์ซึ่งช่วย Apple ในการแก้ไขปัญหาที่เกิดขึ้นกับอุปกรณ์ของคุณ และช่วย Apple ในการปรับปรุงผลิตภัณฑ์และบริการให้ดียิ่งขึ้น ไฟล์ที่สร้างจะมีข้อมูล เกี่ยวกับกิจกรรมเครือข่ายของคุณบนอุปกรณ์เครื่องนี้ รวมถึงเว็บไซต์ที่คุณเยี่ยมชมและแอพที่คุณใช้ โปรไฟล์นี้ จะหมดอายุหลังจาก 3 วัน
+                
+                หากต้องการลบโปรไฟล์นี้ ให้ไปที่ 'การตั้งค่าระบบ' แล้วเลือก 'โปรไฟล์' จากนั้นเลือกโปรไฟล์ 'การวินิจฉัยการลงชื่อเพียงครั้งเดียวสำหรับองค์กร' แล้วลบออกด้วยการเลือก '-'
+                
+                เมื่อคุณเปิดใช้งานเครื่องมือการวินิจฉัยนี้และส่งสำเนาของไฟล์ที่สร้างให้กับ Apple จะถือว่าคุณยินยอมให้ Apple ใช้เนื้อหาของไฟล์เหล่านี้ตามนโยบายความเป็นส่วนตัว (http://www.apple.com/legal/privacy/th)</string>
+		<key>tr</key>
+		<string>Kurumsal Tekli Oturum Açma Tanıları Profili, Apple'ın aygıtınızla ilgili sorunları gidermesini sağlamanın yanı sıra ürün ve hizmetlerini geliştirmesine yardımcı olan dosyalar oluşturur. Oluşturulan dosyalar, bu aygıttaki ağ etkinliğinizle (ziyaret ettiğiniz web siteleri ve kullandığınız uygulamalar gibi) ilgili bilgiler içerir. Bu profilin süresi 3 gün sonra dolar.
+                
+                Bu profili kaldırmak için "Sistem Tercihleri"ne gidin, "Profiller"i ve ardından “Kurumsal Tekli Oturum Açma Tanıları" Profilini seçip "-" düğmesini belirleyerek profili silin.
+                
+                Bu tanılama aracını etkinleştirerek ve oluşturulan dosyaların bir kopyasını Apple'a göndererek Apple'ın bu dosyaların içeriğini gizlilik politikasına (https://www.apple.com/legal/privacy/tr/) uygun şekilde kullanacağını kabul edersiniz..</string>
+		<key>zh-Hans</key>
+		<string>“企业单点登录诊断描述文件”会生成一些文件，这些文件可帮助 Apple 对您设备上出现的问题进行故障诊断，并可帮助 Apple 提升自身的产品和服务。生成的文件将包含您在这台设备上的网络活动相关信息，其中包括您访问过的网站和您使用过的应用。这个描述文件会在 3 天后失效。
+                
+                要移除这个描述文件，请前往“系统偏好设置”，依次选择“描述文件”和“企业单点登录诊断”描述文件，然后选择“-”将它删除。
+                
+                启用这个诊断工具并向 Apple 发送所生成文件的副本，即表示您同意 Apple 依照隐私政策 (http://www.apple.com/legal/privacy/szh/) 使用这类文件的内容。</string>
+		<key>zh-Hant</key>
+		<string>Enterprise Single Sign-On Diagnostics 描述檔產生的檔案可讓 Apple 進行裝置問題故障診斷，並協助 Apple 改進其產品和服務。產生的檔案將包含您在此裝置上的網路活動相關資訊，包括您造訪的網站以及使用的 app。此描述檔將於 3 天後到期。
+                
+                若要移除此描述檔，請前往「系統偏好設定」，選取「描述檔」，選取「Enterprise Single Sign-On Diagnostics」描述檔，然後選取「-」刪除此檔案。
+                
+                根據 Apple 的隱私權政策（https://www.apple.com/legal/privacy/tzh/），啟用此診斷工具並將產生的檔案副本傳送給 Apple，即代表您同意 Apple 使用這些檔案的內容。</string>
+	</dict>
+	<key>DurationUntilRemoval</key>
+	<real>259200</real>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.system.logging.appsso.1</string>
+			<key>PayloadType</key>
+			<string>com.apple.system.logging</string>
+			<key>PayloadUUID</key>
+			<string>8C31282A-DD51-46C3-A20C-324CBC263EC6</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Subsystems</key>
+			<dict>
+				<key>com.apple.AppSSO</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Enables Enterprise Single Sign-On Diagnostics</string>
+	<key>PayloadDisplayName</key>
+	<string>Enterprise Single Sign-On Diagnostics</string>
+	<key>PayloadIdentifier</key>
+	<string>com.apple.appsso.log</string>
+	<key>PayloadOrganization</key>
+	<string>Apple Inc.</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>F32EE05D-0B10-43D1-A359-B324B4B98237</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>RemovalDate</key>
+	<date>2022-07-28T07:00:00Z</date>
+</dict>
+</plist>
+��	s0�0� ���e�J�i0	*�H�� 0b10	UUS10U
+
+Apple Inc.1&0$UApple Certification Authority10UApple Root CA0130524174337Z280524174337Z0��1@0>U7Apple Application Integration 2 Certification Authority1&0$UApple Certification Authority10U
+
+Apple Inc.10	UUS0�"0	*�H�� � 0�
+� �H�glV��p�F����:ޡ�٨6<b�|�G�k����t�5�XOtأ��-�s%YԖ�&ϝ'�T�ܒ��3b�ȹ�6�j���m��-��}�)��������gi<�D($��,5ֱ %�P��%��Oo[��*��l^�9.��m;�9q?��W�# O��^��X����ײ~�e���<��n�V��
+�Kɢ��1���5lÀ^Pc���m\��&�Jޛ��Zo��k����2��.B��xZ� ���0��0U��|!`��={�:2�iߞl�0U�0�0U#0�+�iG�v	��k�.@��GM^0.U'0%0#�!��http://crl.apple.com/root.crl0U�0
+*�H��cd 0	*�H�� � �͍��]����I�ݳ3����!����گ	"�`<YB�-��?��*��jx�.�;L�eC�Ϩ�=7�E/J���k���g���؆qw��௤�(�?4ye6�TAq�!�PUEΎ���Uг�(Q�sQ�y�n��7	a1/�Ѻ��\7�����RB����`"`|��?�����'c�bV��%�̈���T�y聅8@¹�Mb�+�)�g���rw���+Q��S��	��迡&���7�@0�S0�;��6��k
+0	*�H�� 0��1@0>U7Apple Application Integration 2 Certification Authority1&0$UApple Certification Authority10U
+
+Apple Inc.10	UUS0201214200231Z231214200231Z0s1.0,U%AppleCare Profile Signing Certificate10UConfiguration Profiles10U
+
+Apple Inc.10	UUS0�"0	*�H�� � 0�
+� ���E0H(��A�[�B�JV��LW����f����WW�[kh���o�R�t�Aj���Q�w���;$�#������gB�b}��A�,�!����hs����d�t�P+���SfĂe�2�V`^"���8�{H���F��U��w.��N_�ܖH��$&uwY``�L5����z�Oݗ�әr��D;H҉�y���H'>�ʓ���Qn��+�l�T��2�S��Q��*i'�\?W�ߺ"zoS5S����"X�/ ���0��0U�0 0U#0���|!`��={�:2�iߞl�0@+40200+0�$http://ocsp.apple.com/ocsp04-aaica020�U �0�0��	*�H��cd0��0(+http://www.apple.com/appleca0��+0����Reliance on this certificate by any party assumes acceptance of the then applicable standard terms and conditions of use, certificate policy and certification practice statements.0U%�0	*�H��cd0U9S��G`��?�l%��$%��0U��0	*�H�� � S�3�h�-3=%�q�d�ER�����)?nC���,�]�OLE.�|g#�Qg%�Ǽ���K����S�O�p4�ھ����(����s���@��0AF �t,Th�Ei��|��ގ�:K�q����Ʉ�y�[$Gɍ���H��܆w+�p ��A�]z ]����/���t�P�So���|�Il�V���*��<���ȗ���f�3�5�s�x�cPbb��U��V�&��v��|:�"Ё�hŲ1�?0�;�9S��G`��?�l%��$%��0	`�He0	*�H�� � 8�1��,z��=V��=�)��v�H�k6���]��@��Af���ʳa*}��fω��'���;�" J+�X�n�wpRZ�[=��।�P��T;��"{#�@�.S�������RI��D��Y��/��1ȵ��"-����p~%I��s�
+�V� ��y����MaO�l�N�y"-O{�)F��GC���6����w٫[9��ͬ�\�$]�rVo��p�:U�ĚC�D4<?����V���0`�y�6�

@@ -1,0 +1,705 @@
+0ÇUÿ	*ÜHÜ˜†ÇU…0ÇU≈10	`ÜHe0ÇJı	*ÜHÜ˜†ÇJÊÇJ‚<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>The CarPlay Diagnostics Profile generates files that allow Apple to troubleshoot issues related to CarPlay and related products and services. The generated files will collect communications between the head unit and the iPhone, and may contain some of your personal information, including information about the vehicle names and credentials of the car(s) to which you have connected your iPhone for CarPlay previously, modes and settings such as night mode, the performance of suggestions in CarPlay, user interface updates; restrictions and notification settings. The profile will expire after 14 days.
+
+	It will also generate files that allow Apple to troubleshoot issues with your device and help Apple to improve Siri. The generated log files may contain information that could be considered your¬†personal information, including your Siri identifier, sync data such as contacts or music library information, as well user requests to Siri, such as emails and iMessages you send with Siri.
+			
+	The generated log files include information related to your calls, such as the numbers you call or that call you while this profile is installed, the time these calls were made, the duration of the calls, and the names associated with these numbers if they are present in your address book; metadata for streamed audio tracks that may include information such as the title of the track and artist; names of nearby Bluetooth devices; and information related to the iOS device, such as when the device sleeps and wakes. The generated log files will not contain the afore-mentioned information about calls made while this profile was not installed, nor will they contain recordings of the calls themselves.
+			
+	It will also help troubleshoot issues with the loading of Maps on your iOS device or Apple Watch. The generated files include information, including navigation activities and location, regarding your interaction with Maps such as Maps-related search queries and results, data about Maps images loading, and information related to when you report an issue in Maps. If your iPhone is paired with an Apple Watch, the generated files will also include Apple Watch connectivity data.
+		   
+	The generated files may contain some of your personal information, including the accessory identifiers and type of accessories, the applications used with each accessory, when an accessory and/or its application was used, metadata from your music library, caller information for FaceTime and/or regular calls when connected to an accessory, and entries in the Recents/Favorites list. If you install this profile, it will automatically turn the logging on, and this data will be captured when you take a Sysdiagnose on this device.
+			
+	You will be able to turn on and off logging at any time while the Profile is installed, and will be able to review the log files on your computer prior to sending them to Apple.  To turn off logging, open Settings, tap General, tap "Profiles and Device Management," tap "CarPlay Diagnostics" and tap "Delete Profile."
+			
+	By enabling this diagnostic tool and sending a copy of the generated files to Apple, you are consenting to Apple's use of the content of such files in accordance with its privacy policy (http://www.apple.com/legal/privacy).</string>
+	</dict>
+	<key>DurationUntilRemoval</key>
+	<real>1209600</real>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.incar.systemLogging</string>
+			<key>PayloadType</key>
+			<string>com.apple.system.logging</string>
+			<key>PayloadUUID</key>
+			<string>C3CF0585-A005-414E-939E-E0A4C0A105A3</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Subsystems</key>
+			<dict>
+				<key>com.apple.CarPlayApp</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+						<key>SmartWidget</key>
+						<true/>
+					</dict>
+				</dict>
+				<key>com.apple.GeoServices</key>
+				<dict>
+					<key>DeviceConnection</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>MSPUpNext</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>MapsSupport</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>MapsSupportJournal</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>ResourceManifest</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>TransitWidget</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+				</dict>
+				<key>com.apple.Maps.RequestResponse</key>
+				<dict>
+					<key>AddressCorrection</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>Autocomplete</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>BatchReverseGeocode</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>BusinessPortalBaseURL</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>Directions</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>ETA</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>ExperimentRequest</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>LocationShift</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>LogMessageUsageURL</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>PlaceDataLookup</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>ProblemOptIn</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>ProblemStatus</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>ProblemSubmission</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>SimpleETA</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>SpatialLookup</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+				</dict>
+				<key>com.apple.bluetooth</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Enable-Private-Data</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+				</dict>
+				<key>com.apple.siri</key>
+				<dict>
+					<key>AceConnection</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>Analysis</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>Analytics</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>Client</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>Daemon</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>Dispatch</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>Fides</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>IDS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>Intent</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>Location</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>MediaSupport</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>Performance</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>Plugin</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>Proxy</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>Service</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>Session</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>Speech</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>TinyCDB</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>Utility</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+				</dict>
+				<key>com.apple.voiceserviceslogging</key>
+				<dict>
+					<key>default</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Inherit</string>
+							<key>Persist</key>
+							<string>Inherit</string>
+						</dict>
+						<key>TTL</key>
+						<dict>
+							<key>Debug</key>
+							<integer>0</integer>
+							<key>Default</key>
+							<integer>0</integer>
+							<key>Info</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+			<key>System</key>
+			<dict>
+				<key>Enable-Logging</key>
+				<true/>
+			</dict>
+		</dict>
+		<dict>
+			<key>PayloadContent</key>
+			<array>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>UIStatusBarRadarTimeItemEnabled</key>
+						<integer>1</integer>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>com.apple.UIKit</string>
+				</dict>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>cmsession_trace</key>
+						<integer>1</integer>
+						<key>endpointcentral_trace</key>
+						<integer>1</integer>
+						<key>starkmode_trace</key>
+						<integer>1</integer>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>com.apple.coremedia</string>
+				</dict>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>FWStreamLogging</key>
+						<dict>
+							<key>FWCoreDumpEnable</key>
+							<true/>
+							<key>FWStreamLoggingEnable</key>
+							<true/>
+						</dict>
+						<key>HCITraces</key>
+						<dict>
+							<key>StackDebugEnabled</key>
+							<true/>
+						</dict>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>com.apple.MobileBluetooth.debug</string>
+				</dict>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>AFLogLevel</key>
+						<integer>6</integer>
+						<key>AFSpeechLoggingEnabled</key>
+						<true/>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>com.apple.assistant.logging</string>
+				</dict>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>Console Output Level</key>
+						<integer>7</integer>
+						<key>File Logging Level</key>
+						<integer>7</integer>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>com.apple.voicetrigger</string>
+				</dict>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>VSLogLevel</key>
+						<integer>7</integer>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>com.apple.voiceservices.logging</string>
+				</dict>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>LogLevel.AddressCorrection</key>
+						<integer>7</integer>
+						<key>LogLevel.Autocomplete</key>
+						<integer>7</integer>
+						<key>LogLevel.BatchReverseGeocode</key>
+						<integer>7</integer>
+						<key>LogLevel.BusinessPortalBaseURL</key>
+						<integer>7</integer>
+						<key>LogLevel.DeviceConnection</key>
+						<integer>6</integer>
+						<key>LogLevel.Directions</key>
+						<integer>7</integer>
+						<key>LogLevel.ETA</key>
+						<integer>7</integer>
+						<key>LogLevel.ExperimentRequest</key>
+						<integer>7</integer>
+						<key>LogLevel.LocationShift</key>
+						<integer>7</integer>
+						<key>LogLevel.LogMessageUsageURL</key>
+						<integer>7</integer>
+						<key>LogLevel.MapMatch</key>
+						<integer>7</integer>
+						<key>LogLevel.PlaceDataLookup</key>
+						<integer>7</integer>
+						<key>LogLevel.ProblemNotificationAvailability</key>
+						<integer>7</integer>
+						<key>LogLevel.ProblemOptIn</key>
+						<integer>7</integer>
+						<key>LogLevel.ProblemStatus</key>
+						<integer>7</integer>
+						<key>LogLevel.ProblemSubmission</key>
+						<integer>7</integer>
+						<key>LogLevel.ResourceManifest</key>
+						<integer>7</integer>
+						<key>LogLevel.SimpleETA</key>
+						<integer>7</integer>
+						<key>LogLevel.Usage</key>
+						<integer>7</integer>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>com.apple.GEO</string>
+				</dict>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>IAPLogging</key>
+						<true/>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>com.apple.Preferences</string>
+				</dict>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>LogEAEvents</key>
+						<true/>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>com.apple.logging</string>
+				</dict>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>LogAttachEvents</key>
+						<true/>
+						<key>PrintIapPackets</key>
+						<true/>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>com.apple.iapd</string>
+				</dict>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>AppleIDBusEventLogging</key>
+						<true/>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>com.apple.iaptransportd</string>
+				</dict>
+			</array>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.defaults.1</string>
+			<key>PayloadType</key>
+			<string>com.apple.defaults.managed</string>
+			<key>PayloadUUID</key>
+			<string>E89F4F2E-B888-409B-A3CB-5CEB6AA13358</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Allows a sysdiagnose to be generated on the CarPlay screen</string>
+	<key>PayloadDisplayName</key>
+	<string>CarPlay Diagnostics</string>
+	<key>PayloadIdentifier</key>
+	<string>com.apple.carplay</string>
+	<key>PayloadOrganization</key>
+	<string>Apple Inc.</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>9B29DAE8-90C6-44D7-90DA-7DFAF91CF6A5</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>RemovalDate</key>
+	<date>2022-05-27T07:00:00Z</date>
+</dict>
+</plist>
+†Ç	s0Ç0Ç †π˚eëJòi0	*ÜHÜ˜ 0b10	UUS10U
+
+Apple Inc.1&0$UApple Certification Authority10UApple Root CA0130524174337Z280524174337Z0Åå1@0>U7Apple Application Integration 2 Certification Authority1&0$UApple Certification Authority10U
+
+Apple Inc.10	UUS0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ∏H°glVùÂp≈FÙØÖ„Ω:ﬁ°ÁŸ®6<b•|†G≥kÅ¨˛ÿtÊ5∞XOtÿ£˛Ì-Ó§s%Y‘ñ‹&œù'ãTú‹í±‡3bô»πØ6§jÅëßm››-ÃÅ}Ã)â£…ô™¢ÏŸgi<øD($±ƒ,5÷± %ÔPß€%∆√Oo[áæ*Òìß‘l^≤9.©·m;Æ9q?ÛπÙWù# OôÉ^üXæµ—Ï◊≤~¬e‚ÒÏ<¶¸n€V≥Ó
+≤K…¢Ò1ˆÆﬁ5l√Ä^Pcê∂∫m\¿„ü&ÉJﬁõ©∞Zo˚õkÅÏ›ﬂ2ﬁ¸.B¢ xZ◊ £Å¶0Å£0U˜æ|!`ë€={ÿ:2Åiﬂûlõ0Uˇ0ˇ0U#0Ä+–iGîv	˛Ùkç.@¶˜GM^0.U'0%0#†!†Ühttp://crl.apple.com/root.crl0Uˇ0
+*ÜHÜ˜cd 0	*ÜHÜ˜ Ç ïÕç˝§]ıÒ¿áIá›≥3ì≠Ñ–!ì„Ÿ÷⁄Ø	"Ç`<YBÒ-ì∂?ˇÙ*ÙÓjx¡.˚;LÆeCÀœ®Î=7êE/Jç®àk‚ö€Ôg∏Ò‰ÿÜqw”Ûâ‡Ø§Í(§?4ye6ÉTAq◊!‹PUEŒéº˜‹U–≥ (Q¨sQ¨yãní†7	a1/°—∫Î·\7¿ÿ—Á‡RB§îãˆ`"`|†¿?¡ïÖ’¬'c∞bVôÌ%ÙÃàôô‹T∑yËÅÖ8@¬πÌMb‘+ˆ)Òg°·çrwˆ†î+QàÑSÚÛí	ÑÛËø°&œ¸í7ª@0ÇS0Ç;†¿6üôk
+0	*ÜHÜ˜ 0Åå1@0>U7Apple Application Integration 2 Certification Authority1&0$UApple Certification Authority10U
+
+Apple Inc.10	UUS0201214200231Z231214200231Z0s1.0,U%AppleCare Profile Signing Certificate10UConfiguration Profiles10U
+
+Apple Inc.10	UUS0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ⁄˚ÒîE0H(Ï∂A§[˚B†JVﬂ˙LWÊ˝¯÷fˆ◊Ô√WW¿[khíü≥oÌRãtÈAjò≥ªQ¨wüÈñ˜;$ﬁ#¿Â∞ª§˝gB™b}œÒAÛ,≥!Çƒ˚—hsœ˚Íö“dÀt©P+ÒèÜ¸˚SÔõõfƒÇeÔ2›V`^"˛Ô—8â{HéáÙFØ…UôÜw.î◊N_á‹ñHûà$&uwY``ÈL5ıòÓ⁄z¯O›óø”ôr°ÎD;H“âéyõÂ»H'>¯ ìÿÚ÷Qn‹∞+˘l∑T⁄Á2ÑS•ˇQÜæ*i'•\?W∞ﬂ∫"zoS5S˚¢‘—"X‹/ £Çœ0ÇÀ0Uˇ0 0U#0Ä˜æ|!`ë€={ÿ:2Åiﬂûlõ0@+40200+0Ü$http://ocsp.apple.com/ocsp04-aaica020ÇU Ç0Ç0Å˛	*ÜHÜ˜cd0Å0(+http://www.apple.com/appleca0Å√+0Å∂Å≥Reliance on this certificate by any party assumes acceptance of the then applicable standard terms and conditions of use, certificate policy and certification practice statements.0U%ˇ0	*ÜHÜ˜cd0U9Sˆ«G`‘∆?£l%áÍ$%∫∑0UˇÄ0	*ÜHÜ˜ Ç Sﬂ3Áh¬-3=%‡¨qëdŸERñ˜ﬂ˘æ)?nCÿŒÚ,õ]∂OLE.Ü|g#ÊQg%á«ºì™ÎKú∑ ÁS•OÔp4É⁄æô≤’Î(˜∏ÃÊsæ¶Ê@ƒÁ0AF Ôt,ThœEißì|‡‡ﬁé⁄:Kéq˜€¯∑…Ñıy¨[$G…ç¯≠§Hﬁ÷‹Üw+˜p ò•A•]z ]ùÔÜÚÈ/˚ˆìtÓP¯Soø≠ƒ|√Il”VæÈë*Ü‰<»ÁÃ»óÔ¯Øf∞3∆5ús∏x¶cPbbã…UÇ¥V◊&Ò¶üËvπ†|:Ø"–Åâh≈≤1Ç?0Ç;†9Sˆ«G`‘∆?£l%áÍ$%∫∑0	`ÜHe0	*ÜHÜ˜ Ç âMOeu∆pIÑÌ™ô={ıQZ£âÚ1tÃ◊.k1Úè£†àl⁄∂#^Ò≠këOhYdgzáËk™Az¢◊8°Hø≤h∂$mŒWwyS˝ô]GG’~ˆÇ%"—‹sPÕn√‡√ÁÂ˛1‚`œ
+®3˝Óaû¬ŒÔG
+ëœ∫∞v€Jÿß≤2ªm„[>j#ŸÙ!3õÏºí€∏A∫'∑#øæKRˆÇ˘:ïáø{˚˙≤Ñd9ñU`´–·kﬁ“ÛPÓÌÇvÔ ãπLcvyÉqÊFiÒòÀ»JŸ	ræÔÖpu¡∂¥Âi`gƒ“™—≥*·“Ëø.Ô

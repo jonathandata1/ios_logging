@@ -1,0 +1,629 @@
+0ÇOé	*ÜHÜ˜†ÇO0ÇO{10	`ÜHe0ÇD´	*ÜHÜ˜†ÇDúÇDò<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>The iWork Diagnostics Profile generates files that allow Apple to troubleshoot issues with your device and help Apple to improve its related products and services. The generated files may contain some of your personal information, including full path names of your stored documents, the contents of iWork documents possibly including deleted content, full path names of your files accessed and Spotlight search results, your iCloud username, computer name, and the names of other computers registered with your iCloud account.
+
+On iOS devices, you will be able to turn logging off at any time by tapping ‚ÄúSettings," tapping ‚ÄúGeneral,‚Äù then ‚ÄúProfiles &amp; Device Management,‚Äù then ‚ÄúiWork Diagnostics Profile,‚Äù and finally ‚ÄúRemove Profile.‚Äù On MacOS, you will be able to turn logging off at any time by opening ‚ÄúSystem Preferences," then ‚ÄúProfiles,‚Äù then selecting ‚ÄúiWork Diagnostics Profile,‚Äù and finally click on the minus in the lower left corner to remove the selected profile and click the ‚ÄúRemove‚Äù button in the window that appears.  You will also be able to review the log files on your computer prior to sending them to Apple. This profile will expire after 14 days.
+
+By enabling this diagnostic tool and sending a copy of the generated files to Apple, you are consenting to Apple‚Äôs use of the content of such files in accordance with its privacy policy (http://www.apple.com/legal/privacy).
+
+Apple Confidential Profile. Do not distribute. Not to be used or disclosed without permission from Apple. Copyright ¬© 2021, Apple Inc. All rights reserved.</string>
+	</dict>
+	<key>DurationUntilRemoval</key>
+	<real>1209600</real>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<array>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>TSUASLLogAllCategories</key>
+						<integer>1</integer>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>.GlobalPreferences</string>
+				</dict>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>TSUCollaborationLogToFile</key>
+						<string>YES</string>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>.GlobalPreferences</string>
+				</dict>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>TSUCollaborationLogFilterLevel</key>
+						<integer>7</integer>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>.GlobalPreferences</string>
+				</dict>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>log.level</key>
+						<integer>7</integer>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>com.apple.bird</string>
+				</dict>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>com.apple.clouddocs.log.level</key>
+						<integer>7</integer>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>.GlobalPreferences</string>
+				</dict>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>DebugLevel</key>
+						<integer>4</integer>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>com.apple.mmcs</string>
+				</dict>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>CKLogLevel</key>
+						<integer>8</integer>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>.GlobalPreferences</string>
+				</dict>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>logLevel</key>
+						<integer>7</integer>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>com.apple.accountsd</string>
+				</dict>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>com.apple.AOSKit.LogLevel</key>
+						<integer>7</integer>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>.GlobalPreferences</string>
+				</dict>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>com.apple.coredata.ubiquity.logLevel</key>
+						<integer>3</integer>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>.GlobalPreferences</string>
+				</dict>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>CSLogDetailedActivity</key>
+						<string>YES</string>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>.GlobalPreferences</string>
+				</dict>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>CSLogToConsole</key>
+						<string>YES</string>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>.GlobalPreferences</string>
+				</dict>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>DRLogLevel</key>
+						<integer>8</integer>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>.GlobalPreferences</string>
+				</dict>
+			</array>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.defaults.1</string>
+			<key>PayloadType</key>
+			<string>com.apple.defaults.managed</string>
+			<key>PayloadUUID</key>
+			<string>823122EB-DA83-4F6F-9B75-55EC3EBE5CE2</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>.GlobalPreferences</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>TSUASLLogAllCategories</key>
+								<integer>1</integer>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Custom: (TSUASLLogAllCategories)</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mdm.30733CFF-A8C4-4855-90CF-E696C511E267.alacarte.customsettings.E6E35D25-A565-47ED-A4D9-4AD17D826084</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>E6E35D25-A565-47ED-A4D9-4AD17D826084</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>.GlobalPreferences</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>TSUCollaborationLogFilterLevel</key>
+								<integer>7</integer>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Custom: (TSUCollaborationLogFilterLevel)</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mdm.30733CFF-A8C4-4855-90CF-E696C511E267.alacarte.customsettings.350B4683-D707-4BE7-AB76-45105FB34EE2</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>350B4683-D707-4BE7-AB76-45105FB34EE2</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>.GlobalPreferences</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>TSUCollaborationLogToFile</key>
+								<string>YES</string>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Custom: (TSUCollaborationLogToFile)</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mdm.30733CFF-A8C4-4855-90CF-E696C511E267.alacarte.customsettings.F6B474B2-5636-4772-9E27-47699552C52F</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>F6B474B2-5636-4772-9E27-47699552C52F</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.apple.bird</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>log.level</key>
+								<integer>7</integer>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Custom: (com.apple.bird)</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mdm.30733CFF-A8C4-4855-90CF-E696C511E267.alacarte.customsettings.DE15C52E-64A8-44E3-9F72-D7D6C1B2C56D</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>DE15C52E-64A8-44E3-9F72-D7D6C1B2C56D</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>.GlobalPreferences</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>com.apple.clouddocs.log.level</key>
+								<integer>7</integer>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Custom: (com.apple.clouddocs.log.level)</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mdm.30733CFF-A8C4-4855-90CF-E696C511E267.alacarte.customsettings.E3B5B075-DCFD-4012-B47F-0828180C8953</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>E3B5B075-DCFD-4012-B47F-0828180C8953</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.apple.mmcs</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>DebugLevel</key>
+								<string>4</string>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Custom: (com.apple.mmcs)</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mdm.30733CFF-A8C4-4855-90CF-E696C511E267.alacarte.customsettings.983CEAB3-FC35-49D1-BA72-D14805A54A7A</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>983CEAB3-FC35-49D1-BA72-D14805A54A7A</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>.GlobalPreferences</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>CKLogLevel</key>
+								<integer>8</integer>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Custom: (CKLogLevel)</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mdm.30733CFF-A8C4-4855-90CF-E696C511E267.alacarte.customsettings.E3FE1702-0FC4-421C-B9BD-6D7818D48E48</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>E3FE1702-0FC4-421C-B9BD-6D7818D48E48</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.apple.accountsd</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>logLevel</key>
+								<integer>7</integer>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Custom: (com.apple.accountsd)</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mdm.30733CFF-A8C4-4855-90CF-E696C511E267.alacarte.customsettings.5A68B11A-4106-4BC3-A048-1F12DFE9038C</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>5A68B11A-4106-4BC3-A048-1F12DFE9038C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>.GlobalPreferences</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>com.apple.AOSKit.LogLevel</key>
+								<integer>7</integer>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Custom: (com.apple.AOSKit.LogLevel)</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mdm.30733CFF-A8C4-4855-90CF-E696C511E267.alacarte.customsettings.FC5F5732-007E-465E-8A01-7E7188D0DDE9</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>FC5F5732-007E-465E-8A01-7E7188D0DDE9</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>.GlobalPreferences</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>com.apple.coredata.ubiquity.logLevel</key>
+								<integer>3</integer>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Custom: (com.apple.coredata.ubiquity.logLevel)</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mdm.30733CFF-A8C4-4855-90CF-E696C511E267.alacarte.customsettings.8CC10767-22C9-4013-B93A-59401AC65BD7</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>8CC10767-22C9-4013-B93A-59401AC65BD7</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadIdentifier</key>
+			<string>LoggingPayload</string>
+			<key>PayloadType</key>
+			<string>com.apple.system.logging</string>
+			<key>PayloadUUID</key>
+			<string>04A78F14-1E17-46EF-BAAB-E4654AB70D42</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Subsystems</key>
+			<dict>
+				<key>com.apple.CloudDocsUI</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+						<key>TTL</key>
+						<dict>
+							<key>Default</key>
+							<integer>14</integer>
+						</dict>
+					</dict>
+				</dict>
+				<key>com.apple.clouddocs</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+						<key>TTL</key>
+						<dict>
+							<key>Default</key>
+							<integer>14</integer>
+						</dict>
+					</dict>
+				</dict>
+				<key>com.apple.cloudkit</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+						<key>LogFacilityCK</key>
+						<dict>
+							<key>Enable-Oversize-Messages</key>
+							<true/>
+						</dict>
+						<key>LogFacilityMMCS</key>
+						<dict>
+							<key>Enable-Oversize-Messages</key>
+							<true/>
+						</dict>
+						<key>LogFacilityPCS</key>
+						<dict>
+							<key>Enable-Oversize-Messages</key>
+							<true/>
+						</dict>
+						<key>LogFacilityRequest</key>
+						<dict>
+							<key>Enable-Oversize-Messages</key>
+							<true/>
+						</dict>
+						<key>LogFacilitySQL</key>
+						<dict>
+							<key>Enable-Oversize-Messages</key>
+							<true/>
+						</dict>
+						<key>TTL</key>
+						<dict>
+							<key>Default</key>
+							<integer>14</integer>
+						</dict>
+					</dict>
+				</dict>
+				<key>com.apple.iwork</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+						<key>TTL</key>
+						<dict>
+							<key>Default</key>
+							<integer>14</integer>
+						</dict>
+					</dict>
+				</dict>
+				<key>com.apple.mmcs</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+						<key>TTL</key>
+						<dict>
+							<key>Default</key>
+							<integer>14</integer>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Enables iWork debug logging.</string>
+	<key>PayloadDisplayName</key>
+	<string>iWork Diagnostics Profile</string>
+	<key>PayloadIdentifier</key>
+	<string>com.apple.iWork.debug</string>
+	<key>PayloadOrganization</key>
+	<string>Apple Inc.</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>2725B325-FB91-4241-A500-A7E381D5A664</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>RemovalDate</key>
+	<date>2022-05-28T07:00:00Z</date>
+</dict>
+</plist>
+†Ç	s0Ç0Ç †π˚eëJòi0	*ÜHÜ˜ 0b10	UUS10U
+
+Apple Inc.1&0$UApple Certification Authority10UApple Root CA0130524174337Z280524174337Z0Åå1@0>U7Apple Application Integration 2 Certification Authority1&0$UApple Certification Authority10U
+
+Apple Inc.10	UUS0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ∏H°glVùÂp≈FÙØÖ„Ω:ﬁ°ÁŸ®6<b•|†G≥kÅ¨˛ÿtÊ5∞XOtÿ£˛Ì-Ó§s%Y‘ñ‹&œù'ãTú‹í±‡3bô»πØ6§jÅëßm››-ÃÅ}Ã)â£…ô™¢ÏŸgi<øD($±ƒ,5÷± %ÔPß€%∆√Oo[áæ*Òìß‘l^≤9.©·m;Æ9q?ÛπÙWù# OôÉ^üXæµ—Ï◊≤~¬e‚ÒÏ<¶¸n€V≥Ó
+≤K…¢Ò1ˆÆﬁ5l√Ä^Pcê∂∫m\¿„ü&ÉJﬁõ©∞Zo˚õkÅÏ›ﬂ2ﬁ¸.B¢ xZ◊ £Å¶0Å£0U˜æ|!`ë€={ÿ:2Åiﬂûlõ0Uˇ0ˇ0U#0Ä+–iGîv	˛Ùkç.@¶˜GM^0.U'0%0#†!†Ühttp://crl.apple.com/root.crl0Uˇ0
+*ÜHÜ˜cd 0	*ÜHÜ˜ Ç ïÕç˝§]ıÒ¿áIá›≥3ì≠Ñ–!ì„Ÿ÷⁄Ø	"Ç`<YBÒ-ì∂?ˇÙ*ÙÓjx¡.˚;LÆeCÀœ®Î=7êE/Jç®àk‚ö€Ôg∏Ò‰ÿÜqw”Ûâ‡Ø§Í(§?4ye6ÉTAq◊!‹PUEŒéº˜‹U–≥ (Q¨sQ¨yãní†7	a1/°—∫Î·\7¿ÿ—Á‡RB§îãˆ`"`|†¿?¡ïÖ’¬'c∞bVôÌ%ÙÃàôô‹T∑yËÅÖ8@¬πÌMb‘+ˆ)Òg°·çrwˆ†î+QàÑSÚÛí	ÑÛËø°&œ¸í7ª@0ÇS0Ç;†¿6üôk
+0	*ÜHÜ˜ 0Åå1@0>U7Apple Application Integration 2 Certification Authority1&0$UApple Certification Authority10U
+
+Apple Inc.10	UUS0201214200231Z231214200231Z0s1.0,U%AppleCare Profile Signing Certificate10UConfiguration Profiles10U
+
+Apple Inc.10	UUS0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ⁄˚ÒîE0H(Ï∂A§[˚B†JVﬂ˙LWÊ˝¯÷fˆ◊Ô√WW¿[khíü≥oÌRãtÈAjò≥ªQ¨wüÈñ˜;$ﬁ#¿Â∞ª§˝gB™b}œÒAÛ,≥!Çƒ˚—hsœ˚Íö“dÀt©P+ÒèÜ¸˚SÔõõfƒÇeÔ2›V`^"˛Ô—8â{HéáÙFØ…UôÜw.î◊N_á‹ñHûà$&uwY``ÈL5ıòÓ⁄z¯O›óø”ôr°ÎD;H“âéyõÂ»H'>¯ ìÿÚ÷Qn‹∞+˘l∑T⁄Á2ÑS•ˇQÜæ*i'•\?W∞ﬂ∫"zoS5S˚¢‘—"X‹/ £Çœ0ÇÀ0Uˇ0 0U#0Ä˜æ|!`ë€={ÿ:2Åiﬂûlõ0@+40200+0Ü$http://ocsp.apple.com/ocsp04-aaica020ÇU Ç0Ç0Å˛	*ÜHÜ˜cd0Å0(+http://www.apple.com/appleca0Å√+0Å∂Å≥Reliance on this certificate by any party assumes acceptance of the then applicable standard terms and conditions of use, certificate policy and certification practice statements.0U%ˇ0	*ÜHÜ˜cd0U9Sˆ«G`‘∆?£l%áÍ$%∫∑0UˇÄ0	*ÜHÜ˜ Ç Sﬂ3Áh¬-3=%‡¨qëdŸERñ˜ﬂ˘æ)?nCÿŒÚ,õ]∂OLE.Ü|g#ÊQg%á«ºì™ÎKú∑ ÁS•OÔp4É⁄æô≤’Î(˜∏ÃÊsæ¶Ê@ƒÁ0AF Ôt,ThœEißì|‡‡ﬁé⁄:Kéq˜€¯∑…Ñıy¨[$G…ç¯≠§Hﬁ÷‹Üw+˜p ò•A•]z ]ùÔÜÚÈ/˚ˆìtÓP¯Soø≠ƒ|√Il”VæÈë*Ü‰<»ÁÃ»óÔ¯Øf∞3∆5ús∏x¶cPbbã…UÇ¥V◊&Ò¶üËvπ†|:Ø"–Åâh≈≤1Ç?0Ç;†9Sˆ«G`‘∆?£l%áÍ$%∫∑0	`ÜHe0	*ÜHÜ˜ Ç @¥<‡z„'/’ûÉ&÷‡Ã√Ï Œ‰ìâZÿåÃUÌò `Ë#Ø–lM=ÏË8(œfT{˚°C…:6–;MøóIø¶äK+<‚¶v˝…	ƒ∑å»a·P!G¢x‚%Ô∫°-AáıoÓÿÏï˚òî©∏xMyÖDù¯›V ◊+ÁDg‘Js˛ÅKíÁ,ó7≤—êM(ç◊∞πY…™âˇ≥!≥≥»3Fı™}Ÿ‰&=AÔ’óŒÁu<+å{ßÁÑ◊ÿÇÚ £gÅW*{"ÉG¯=pm⁄”y 
+˘B≤Q2{¢%˚àÑÈÎ”Ç‚€∞ûéS'?Ì}ãC≤T6∂ë°

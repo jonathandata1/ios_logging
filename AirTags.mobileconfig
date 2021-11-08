@@ -1,0 +1,258 @@
+0‚*è	*†H†÷ ‚*Ù0‚*Õ10	`†He0‚ 	*†H†÷ ‚ö‚ò<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>en</key>
+		<string>The AirTags Logging Profile generates files that allow Apple to troubleshoot issues with your AirTag and help Apple to improve its products and services. The generated files may include data, including personal data, associated with your device, your AirTag, and other Find My compatible devices displayed in your Find My app, including your devicesâ€™ name, location, serial number, manufacturer, pairing-related UUID, diagnostic data, firmware version, identifiers of nearby Bluetooth devices in the Find My network, and Find My configurations such as whether a device is in Lost Mode. The generated files may also include data on how you interact with your AirTag and other Find My compatible devices using your Find My app, such as when you played a sound or requested directions to the device, as well as data associated with your iCloud account, such as the name and contact information associated with your Apple ID and whether youâ€™re in a Family Sharing group. If members of your Family Sharing group or your contacts share their location with you so that your Find My app displays their location and the location of your family membersâ€™ devices, the generated logs may include your family members and contactsâ€™ name and contact information associated with their Apple ID and device name, as well as your family membersâ€™ devicesâ€™ Family Sharing status, pairing-related UUID, manufacturer, firmware version, and Find My configurations. 
+
+If you install this profile, it will automatically turn the logging on and this data will be captured when you take a Sysdiagnose on this device. The data will not leave the device unless you initiate a Sysdiagnose and send the results. The profile will expire after 5 days.
+
+You will be able to turn on and off logging at any time while the profile is installed. To turn off logging on your iOS device, open Settings, tap General, tap "Profiles," tap "AirTags Logging" and tap "Delete Profile."
+
+By enabling this diagnostic tool and sending a copy of the generated files to Apple, you are consenting to Apple's use of the content of such files in accordance with its privacy policy (http://www.apple.com/legal/privacy).
+
+Apple Confidential Profile. Do not distribute. Not to be used or disclosed without permission from Apple. Copyright Â© 2021, Apple Inc. All rights reserved.</string>
+	</dict>
+	<key>DurationUntilRemoval</key>
+	<real>432000</real>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Configures AirTags Debug Logging</string>
+			<key>PayloadDisplayName</key>
+			<string>AirTags Logging Profile</string>
+			<key>PayloadIdentifier</key>
+			<string>LoggingPayload</string>
+			<key>PayloadType</key>
+			<string>com.apple.system.logging</string>
+			<key>PayloadUUID</key>
+			<string>9107EE4E-6EE6-460B-8FA3-A227652ABFAC</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Subsystems</key>
+			<dict>
+				<key>com.apple.bluetooth</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Info</string>
+						</dict>
+						<key>Privacy-Enable-Level</key>
+						<string>Private</string>
+					</dict>
+				</dict>
+				<key>com.apple.icloud.searchpartyd</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Info</string>
+						</dict>
+						<key>Privacy-Enable-Level</key>
+						<string>Private</string>
+					</dict>
+				</dict>
+				<key>com.apple.icloud.spshared</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Info</string>
+						</dict>
+						<key>Privacy-Enable-Level</key>
+						<string>Private</string>
+					</dict>
+				</dict>
+				<key>com.apple.librose</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+						<key>Privacy-Enable-Level</key>
+						<string>Private</string>
+					</dict>
+				</dict>
+				<key>com.apple.locationd.Core</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+						<key>Privacy-Enable-Level</key>
+						<string>Private</string>
+					</dict>
+				</dict>
+				<key>com.apple.locationd.Position</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+						<key>Privacy-Enable-Level</key>
+						<string>Private</string>
+					</dict>
+				</dict>
+				<key>com.apple.locationd.Utility</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+						<key>Privacy-Enable-Level</key>
+						<string>Private</string>
+					</dict>
+				</dict>
+				<key>com.apple.nearbyd</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+						<key>Privacy-Enable-Level</key>
+						<string>Private</string>
+					</dict>
+				</dict>
+				<key>com.apple.proximity</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+						<key>Privacy-Enable-Level</key>
+						<string>Private</string>
+					</dict>
+				</dict>
+				<key>com.apple.sharing</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Info</string>
+						</dict>
+					</dict>
+				</dict>
+				<key>com.apple.tracking-avoidance</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+						<key>Privacy-Enable-Level</key>
+						<string>Private</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Configures AirTags Debug Logging</string>
+	<key>PayloadDisplayName</key>
+	<string>AirTags Logging Profile</string>
+	<key>PayloadIdentifier</key>
+	<string>LoggingProfile</string>
+	<key>PayloadOrganization</key>
+	<string>Apple Inc.</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>D2E73CCC-4456-408A-9893-552C3CE22F51</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>RemovalDate</key>
+	<date>2022-06-11T07:00:00Z</date>
+</dict>
+</plist>
+ ‚	s0‚0‚  ¹ûe‘J˜i0	*†H†÷ 0b10	UUS10U
+
+Apple Inc.1&0$UApple Certification Authority10UApple Root CA0130524174337Z280524174337Z0Œ1@0>U7Apple Application Integration 2 Certification Authority1&0$UApple Certification Authority10U
+
+Apple Inc.10	UUS0‚"0	*†H†÷ ‚ 0‚
+‚ ¸H¡glVåpÅFô¯…ã½:Ş¡çÙ¨6<b¥| G³k¬şØtæ5°XOtØ£şí-î¤s%YÔ–Ü&Ï'‹TœÜ’±à3b™È¹¯6¤j‘§mİİ-Ì}Ì)‰£É™ª¢ìÙgi<¿D($±Ä,5Ö± %ïP§Û%ÆÃOo[‡¾*ñ“§Ôl^²9.©ám;®9q?ó¹ôW# O™ƒ^ŸğX¾µÑì×²~Âeâñì<¦ünÛV³î
+²KÉ¢ğñ1ö®Ş5lÃ€^Pc¶ºm\ÀãŸ&ƒJŞ›©°Zoû›kìİß2Şü.B¢ÊxZ× £¦0£0U÷¾|!`‘Û={Ø:2ißl›0Uÿ0ÿ0U#0€+ĞiG”v	şôk.@¦÷GM^0.U'0%0# ! †http://crl.apple.com/root.crl0Uÿ0
+*†H†÷cd 0	*†H†÷ ‚ •Íı¤]õñÀ‡I‡İ³3“­„Ğ!“ãÙÖÚ¯	"‚`<YBñ-“¶?ÿô*ôîjxÁ.û;L®eCËÏ¨ë=7E/J¨ˆkâšÛïg¸ñäØ†qwÓó‰à¯¤ê(¤?4ye6ƒTAq×!ÜPUEÎ¼÷ÜUĞ³Ê(Q¬sQ¬y‹n’ 7	a1/¡Ñºëá\7ÀØÑçàRB¤”‹ö`"`| À?Á•…ÕÂ'c°bV™í%ôÌˆ™™ÜT·yè…8@Â¹íMbÔ+ö)ñg¡árwö ”+Qˆ„Sòó’	„óè¿¡&Ïü’7»@0‚S0‚; À6Ÿ™k
+0	*†H†÷ 0Œ1@0>U7Apple Application Integration 2 Certification Authority1&0$UApple Certification Authority10U
+
+Apple Inc.10	UUS0201214200231Z231214200231Z0s1.0,U%AppleCare Profile Signing Certificate10UConfiguration Profiles10U
+
+Apple Inc.10	UUS0‚"0	*†H†÷ ‚ 0‚
+‚ Úûñ”E0H(ì¶A¤[ûB JVßúLWæıøÖfö×ïÃWWÀ[kh’Ÿ³oíR‹téAj˜³»Q¬wŸé–÷;$Ş#Àå°»¤ıgBªb}ÏñAó,³!‚ÄûÑhsÏûêšÒdËt©P+ñ†üûSï››fÄ‚eï2İV`^"şïÑ8‰{H‡ôF¯ÉU™†w.”×N_‡Ü–Hˆ$&uwY``éL5õ˜îÚzøOİ—¿Ó™r¡ëD;HÒ‰y›åÈH'>øÊ“ØòÖQnÜ°+ùl·TÚç2„S¥ÿQ†¾*i'¥\?W°ßº"zoS5Sû¢ÔÑ"XÜ/ £‚Ï0‚Ë0Uÿ0 0U#0€÷¾|!`‘Û={Ø:2ißl›0@+40200+0†$http://ocsp.apple.com/ocsp04-aaica020‚U ‚0‚0ş	*†H†÷cd0ğ0(+http://www.apple.com/appleca0Ã+0¶³Reliance on this certificate by any party assumes acceptance of the then applicable standard terms and conditions of use, certificate policy and certification practice statements.0U%ÿ0	*†H†÷cd0U9SöÇG`ÔÆ?£l%‡ê$%º·0Uÿ€0	*†H†÷ ‚ Sß3çhÂ-3=%à¬q‘dÙER–÷ßù¾)?nCØÎò,›]¶OLE.†|g#æQg%‡Ç¼“ªëKœ·ÊçS¥Oïp4ƒÚ¾™²Õë(÷¸Ìæs¾¦æ@Äç0AF ït,ThÏEi§“|ààŞÚ:Kq÷Ûø·É„õy¬[$GÉø­¤HŞÖÜ†w+÷p ˜¥A¥]z ]ï†òé/ûö“tîPøSo¿­Ä|ÃIlÓV¾é‘*†ä<ÈçÌÈ—ïø¯f°3Æ5œs¸x¦cPbb‹ÉU‚´V×&ñ¦Ÿèv¹ |:¯"Ğ‰hÅ²1‚?0‚; 9SöÇG`ÔÆ?£l%‡ê$%º·0	`†He0	*†H†÷ ‚ 2rœFÁé^É¡w-7]µ7¹)ÌÊÁ±1[CÕù%ÎFÌŒ³5ÜÏoÚÙ“­çÖq‡!ûÃ¿èMV×ãhÖWX¨:|M_›œRK·qéë}ÿ·–Ÿd+;!œcé¹†šæ§:½3˜'ÎJVĞ…H(g‚%CJ4¨F°¡	_ gëNèªjÍÛó<š Ô˜ó+–òÇ6Ç?Ø&-Xüô	¬,«F²/ËP´8İ?Æ×ĞÀÂbà–¼èƒT‰—}Ò’æA«s>G)>EÆ¯•êf#íz„R"uPßnà:'ùP¾×XšŠGã5Õu"şÿMË¢¾F+ŸÆî´—;w
