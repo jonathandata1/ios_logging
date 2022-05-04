@@ -1,0 +1,313 @@
+0Ç-9	*ÜHÜ˜†Ç-*0Ç-&10	`ÜHe0Ç"V	*ÜHÜ˜†Ç"GÇ"C<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>The Location and Motion Logging Profile generates files that allow Apple to troubleshoot issues with your device and help Apple to improve its products and services. The generated files may contain some of your personal information, including contents of SMS's, device identifiers and names, phone numbers of the registering device, Apple IDs of the accounts into which you are signed, logs of incoming and outgoing calls and audio routes during the time the logging is enabled, location data, raw coordinate data, timestamps, battery status and usage, wifi access points, motion data, including raw motion sensor data, app usage, and apps' usage of location and motion. If you install this profile, it will automatically turn the logging on, and this data will be captured when you take a Sysdiagnose on this device. The data will not leave the device unless you initiate a Sysdiagnose and send the results. This profile will expire after 7 days.
+
+You will be able to turn on and off logging at any time while the Profile is installed. To turn off logging on your iOS device, open Settings, tap General, tap "Profiles", tap "Location &amp; Motion Logging", and tap "Delete Profile."
+
+By enabling this diagnostic tool and sending a copy of the generated files to Apple, you are consenting to Apple's use of the content of such files in accordance with its privacy policy (http://www.apple.com/legal/privacy).
+
+Copyright ¬© 2021, Apple Inc. All rights reserved.</string>
+	</dict>
+	<key>DurationUntilRemoval</key>
+	<integer>604800</integer>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>LocationAndMotionLogging</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.locationd.carry.logging</string>
+			<key>PayloadType</key>
+			<string>com.apple.system.logging</string>
+			<key>PayloadUUID</key>
+			<string>4E9D2673-749A-47F3-838B-FA9CED623A3F</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Subsystems</key>
+			<dict>
+				<key>com.apple.corenavigation</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Enable-Private-Data</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+				</dict>
+				<key>com.apple.gpsd</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Enable-Private-Data</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+				</dict>
+				<key>com.apple.locationd.Core</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Enable-Private-Data</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+				</dict>
+				<key>com.apple.locationd.Legacy</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Enable-Private-Data</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+				</dict>
+				<key>com.apple.locationd.Motion</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Enable-Private-Data</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Info</string>
+							<key>Persist</key>
+							<string>Info</string>
+						</dict>
+					</dict>
+				</dict>
+				<key>com.apple.locationd.Pipeline</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Enable-Private-Data</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+				</dict>
+				<key>com.apple.locationd.Position</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Enable-Private-Data</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>NMEA</key>
+					<dict>
+						<key>Enable-Private-Data</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+					<key>PositionProto</key>
+					<dict>
+						<key>Enable-Private-Data</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+						<key>TTL</key>
+						<dict>
+							<key>Debug</key>
+							<integer>1</integer>
+							<key>Default</key>
+							<integer>1</integer>
+							<key>Info</key>
+							<integer>1</integer>
+						</dict>
+					</dict>
+				</dict>
+				<key>com.apple.locationd.Utility</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Enable-Private-Data</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>PayloadContent</key>
+			<array>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>EnableInterfaceTelemetry</key>
+						<true/>
+						<key>EnableProtobufBinaryLog</key>
+						<true/>
+						<key>LogLevel</key>
+						<integer>6</integer>
+						<key>ProtobufLogDirectory</key>
+						<string>/var/mobile/Library/Logs/CrashReporter/gpsd</string>
+						<key>VendorLogDirectory</key>
+						<string>/var/mobile/Library/Logs/CrashReporter/gpsd</string>
+						<key>VendorLogMaxDirectorySizeMB</key>
+						<integer>500</integer>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>gpsd</string>
+				</dict>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>EnableRavenRecorder</key>
+						<true/>
+						<key>EnableVisionRecorder</key>
+						<true/>
+						<key>WriteRavenLogsToCrashReporterFolder</key>
+						<true/>
+						<key>WriteVisionLogsToCrashReporterFolder</key>
+						<true/>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>com.apple.locationd</string>
+				</dict>
+			</array>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.gpsd.loggingprofile</string>
+			<key>PayloadType</key>
+			<string>com.apple.defaults.managed</string>
+			<key>PayloadUUID</key>
+			<string>9BCA0287-F41A-472E-B72C-3FEA6C06D4CE</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadContent</key>
+			<array>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>AllowTelephonyLoggingUI</key>
+						<true/>
+						<key>EnableBasebandLogging</key>
+						<dict>
+							<key>History</key>
+							<integer>12</integer>
+							<key>Profile</key>
+							<integer>2</integer>
+							<key>Sleep</key>
+							<integer>0</integer>
+						</dict>
+						<key>EnableTelephonyLogging</key>
+						<true/>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>com.apple.commcenter</string>
+				</dict>
+			</array>
+			<key>PayloadDescription</key>
+			<string>Enables Telephony Logging</string>
+			<key>PayloadDisplayName</key>
+			<string>Telephony Diagnostics</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.commcenter</string>
+			<key>PayloadOrganization</key>
+			<string>Apple Inc.</string>
+			<key>PayloadType</key>
+			<string>com.apple.defaults.managed</string>
+			<key>PayloadUUID</key>
+			<string>FA27D1FA-098F-4DE4-9B9E-F8255E12026F</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Increases logging to facility troubleshooting location issues.</string>
+	<key>PayloadDisplayName</key>
+	<string>LocationAndMotionLogging</string>
+	<key>PayloadIdentifier</key>
+	<string>com.apple.locationd.customer</string>
+	<key>PayloadOrganization</key>
+	<string>Apple Inc.</string>
+	<key>PayloadRebootSuggested</key>
+	<true/>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>55982A93-EC40-409D-AD1C-33EDDFE6BF0E</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>RemovalDate</key>
+	<date>2022-09-06T07:00:00Z</date>
+</dict>
+</plist>
+†Ç	s0Ç0Ç †π˚eëJòi0	*ÜHÜ˜ 0b10	UUS10U
+
+Apple Inc.1&0$UApple Certification Authority10UApple Root CA0130524174337Z280524174337Z0Åå1@0>U7Apple Application Integration 2 Certification Authority1&0$UApple Certification Authority10U
+
+Apple Inc.10	UUS0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ∏H°glVùÂp≈FÙØÖ„Ω:ﬁ°ÁŸ®6<b•|†G≥kÅ¨˛ÿtÊ5∞XOtÿ£˛Ì-Ó§s%Y‘ñ‹&œù'ãTú‹í±‡3bô»πØ6§jÅëßm››-ÃÅ}Ã)â£…ô™¢ÏŸgi<øD($±ƒ,5÷± %ÔPß€%∆√Oo[áæ*Òìß‘l^≤9.©·m;Æ9q?ÛπÙWù# OôÉ^üXæµ—Ï◊≤~¬e‚ÒÏ<¶¸n€V≥Ó
+≤K…¢Ò1ˆÆﬁ5l√Ä^Pcê∂∫m\¿„ü&ÉJﬁõ©∞Zo˚õkÅÏ›ﬂ2ﬁ¸.B¢ xZ◊ £Å¶0Å£0U˜æ|!`ë€={ÿ:2Åiﬂûlõ0Uˇ0ˇ0U#0Ä+–iGîv	˛Ùkç.@¶˜GM^0.U'0%0#†!†Ühttp://crl.apple.com/root.crl0Uˇ0
+*ÜHÜ˜cd 0	*ÜHÜ˜ Ç ïÕç˝§]ıÒ¿áIá›≥3ì≠Ñ–!ì„Ÿ÷⁄Ø	"Ç`<YBÒ-ì∂?ˇÙ*ÙÓjx¡.˚;LÆeCÀœ®Î=7êE/Jç®àk‚ö€Ôg∏Ò‰ÿÜqw”Ûâ‡Ø§Í(§?4ye6ÉTAq◊!‹PUEŒéº˜‹U–≥ (Q¨sQ¨yãní†7	a1/°—∫Î·\7¿ÿ—Á‡RB§îãˆ`"`|†¿?¡ïÖ’¬'c∞bVôÌ%ÙÃàôô‹T∑yËÅÖ8@¬πÌMb‘+ˆ)Òg°·çrwˆ†î+QàÑSÚÛí	ÑÛËø°&œ¸í7ª@0ÇS0Ç;†¿6üôk
+0	*ÜHÜ˜ 0Åå1@0>U7Apple Application Integration 2 Certification Authority1&0$UApple Certification Authority10U
+
+Apple Inc.10	UUS0201214200231Z231214200231Z0s1.0,U%AppleCare Profile Signing Certificate10UConfiguration Profiles10U
+
+Apple Inc.10	UUS0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ⁄˚ÒîE0H(Ï∂A§[˚B†JVﬂ˙LWÊ˝¯÷fˆ◊Ô√WW¿[khíü≥oÌRãtÈAjò≥ªQ¨wüÈñ˜;$ﬁ#¿Â∞ª§˝gB™b}œÒAÛ,≥!Çƒ˚—hsœ˚Íö“dÀt©P+ÒèÜ¸˚SÔõõfƒÇeÔ2›V`^"˛Ô—8â{HéáÙFØ…UôÜw.î◊N_á‹ñHûà$&uwY``ÈL5ıòÓ⁄z¯O›óø”ôr°ÎD;H“âéyõÂ»H'>¯ ìÿÚ÷Qn‹∞+˘l∑T⁄Á2ÑS•ˇQÜæ*i'•\?W∞ﬂ∫"zoS5S˚¢‘—"X‹/ £Çœ0ÇÀ0Uˇ0 0U#0Ä˜æ|!`ë€={ÿ:2Åiﬂûlõ0@+40200+0Ü$http://ocsp.apple.com/ocsp04-aaica020ÇU Ç0Ç0Å˛	*ÜHÜ˜cd0Å0(+http://www.apple.com/appleca0Å√+0Å∂Å≥Reliance on this certificate by any party assumes acceptance of the then applicable standard terms and conditions of use, certificate policy and certification practice statements.0U%ˇ0	*ÜHÜ˜cd0U9Sˆ«G`‘∆?£l%áÍ$%∫∑0UˇÄ0	*ÜHÜ˜ Ç Sﬂ3Áh¬-3=%‡¨qëdŸERñ˜ﬂ˘æ)?nCÿŒÚ,õ]∂OLE.Ü|g#ÊQg%á«ºì™ÎKú∑ ÁS•OÔp4É⁄æô≤’Î(˜∏ÃÊsæ¶Ê@ƒÁ0AF Ôt,ThœEißì|‡‡ﬁé⁄:Kéq˜€¯∑…Ñıy¨[$G…ç¯≠§Hﬁ÷‹Üw+˜p ò•A•]z ]ùÔÜÚÈ/˚ˆìtÓP¯Soø≠ƒ|√Il”VæÈë*Ü‰<»ÁÃ»óÔ¯Øf∞3∆5ús∏x¶cPbbã…UÇ¥V◊&Ò¶üËvπ†|:Ø"–Åâh≈≤1Ç?0Ç;†9Sˆ«G`‘∆?£l%áÍ$%∫∑0	`ÜHe0	*ÜHÜ˜ Ç 4 ’»mtvø™ã^Lƒ"À√ï7]Ù'íÅÆø4hòÚŸ"¿5Ôπ£ft*œ’•·ÏxrπKt‘·°;&tnØ0Û˙µ)nU˙⁄Êﬁ
+hµTˆH2òQÊ¨?◊Ó1o?<∏ñ°Y(#ºææ“·Ò_fÙ∏üæÜ;S¨Ø\:ZeŸ:ÒÕyvgÚdäÃÓT—⁄ïVƒvK 0ibÕ≈¯Ì>ı»ä·Àz˜ó…∞¥˚l¥ë2z:	å]ÈH-qes|ÿT£ ‹%‰ßDdU`Ãv~ˇ)∆>Ç•éË¶nö¥Â7Ê⁄'•Y.ÊD÷¬Ä¯jG/ÅhÈ˙Ω≤b2z¬◊h

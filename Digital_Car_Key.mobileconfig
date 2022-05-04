@@ -1,0 +1,438 @@
+0Ç4Ö	*ÜHÜ˜†Ç4v0Ç4r10	`ÜHe0Ç)¢	*ÜHÜ˜†Ç)ìÇ)è<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>Placeholder consent
+            This profile will expire after 3 days.
+        
+
+Apple Confidential Profile. Do not distribute. Not to be used or disclosed without permission from Apple. Copyright ¬© 2022, Apple Inc. All rights reserved.</string>
+	</dict>
+	<key>DurationUntilRemoval</key>
+	<real>259200</real>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.wallet.logging.1</string>
+			<key>PayloadType</key>
+			<string>com.apple.system.logging</string>
+			<key>PayloadUUID</key>
+			<string>9F1F9695-DC16-4537-AF27-24493DC192E1</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Subsystems</key>
+			<dict>
+				<key>com.apple.passkit</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+						<key>Persist</key>
+						<string>Debug</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.nfc.logging.1</string>
+			<key>PayloadType</key>
+			<string>com.apple.system.logging</string>
+			<key>PayloadUUID</key>
+			<string>26A476E-ED3A-4AF5-BCF3-C546BB495C46</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Subsystems</key>
+			<dict>
+				<key>com.apple.nfc</key>
+				<dict>
+					<key>LogAPDU</key>
+					<true/>
+					<key>LogNCI</key>
+					<true/>
+					<key>LogRF</key>
+					<integer>4</integer>
+					<key>LogTSM</key>
+					<true/>
+					<key>LogTransactionDetails</key>
+					<true/>
+					<key>Logging</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Enable</key>
+						<string>Debug</string>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+						<key>Persist</key>
+						<string>Debug</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.coreidv.logging.1</string>
+			<key>PayloadType</key>
+			<string>com.apple.system.logging</string>
+			<key>PayloadUUID</key>
+			<string>27B49654-DEBD-4868-B6B6-14AAE617C0CD</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Subsystems</key>
+			<dict>
+				<key>com.apple.CoreIDV</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.kml.logging.1</string>
+			<key>PayloadType</key>
+			<string>com.apple.system.logging</string>
+			<key>PayloadUUID</key>
+			<string>0062F206-8FF6-4A08-B84C-69ABCC129700</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Subsystems</key>
+			<dict>
+				<key>com.apple.sesd.kml</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+						<key>Persist</key>
+						<string>Debug</string>
+						<key>TTL</key>
+						<dict>
+							<key>Default</key>
+							<integer>7</integer>
+						</dict>
+					</dict>
+				</dict>
+				<key>com.apple.seserviced</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+						<key>Persist</key>
+						<string>Debug</string>
+						<key>TTL</key>
+						<dict>
+							<key>Default</key>
+							<integer>7</integer>
+						</dict>
+					</dict>
+				</dict>
+				<key>com.apple.seserviced.framework</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+						<key>Persist</key>
+						<string>Debug</string>
+						<key>TTL</key>
+						<dict>
+							<key>Default</key>
+							<integer>7</integer>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.bluetooth.logging</string>
+			<key>PayloadType</key>
+			<string>com.apple.system.logging</string>
+			<key>PayloadUUID</key>
+			<string>EB7244A8-E5AF-4633-B207-AFA2D04EB5A8</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Subsystems</key>
+			<dict>
+				<key>com.apple.bluetooth</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Enable-Private-Data</key>
+						<true/>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Debug</string>
+							<key>Persist</key>
+							<string>Debug</string>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+			<key>System</key>
+			<dict>
+				<key>Enable-Logging</key>
+				<true/>
+			</dict>
+		</dict>
+		<dict>
+			<key>PayloadContent</key>
+			<array>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>ExtraZoningLog</key>
+						<dict>
+							<key>EnableZoneLogging</key>
+							<true/>
+						</dict>
+						<key>FWStreamLogging</key>
+						<dict>
+							<key>FWCoreDumpEnable</key>
+							<true/>
+							<key>FWStreamLoggingEnable</key>
+							<true/>
+						</dict>
+						<key>HCI</key>
+						<dict>
+							<key>lmpRouting</key>
+							<true/>
+						</dict>
+						<key>HCITraces</key>
+						<dict>
+							<key>StackDebugEnabled</key>
+							<true/>
+						</dict>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>com.apple.MobileBluetooth.debug</string>
+				</dict>
+			</array>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.defaults.1</string>
+			<key>PayloadType</key>
+			<string>com.apple.defaults.managed</string>
+			<key>PayloadUUID</key>
+			<string>7E48B601-E2E9-497A-9883-3A34C647E0BA</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Proximity Debug Logging</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.Proximity.debug.logging</string>
+			<key>PayloadType</key>
+			<string>com.apple.system.logging</string>
+			<key>PayloadUUID</key>
+			<string>80A96170-E5DA-48DF-8D7F-782EC30B259B</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Subsystems</key>
+			<dict>
+				<key>com.apple.Proximity</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Default</string>
+							<key>Persist</key>
+							<string>Default</string>
+						</dict>
+						<key>Privacy-Enable-Level</key>
+						<string>Private</string>
+					</dict>
+				</dict>
+				<key>com.apple.librose</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Default</string>
+							<key>Persist</key>
+							<string>Default</string>
+						</dict>
+						<key>Privacy-Enable-Level</key>
+						<string>Private</string>
+					</dict>
+				</dict>
+				<key>com.apple.nearbyd</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Default</string>
+							<key>Persist</key>
+							<string>Default</string>
+						</dict>
+						<key>Privacy-Enable-Level</key>
+						<string>Private</string>
+					</dict>
+					<key>roseEnableFirmwareLogs</key>
+					<integer>1</integer>
+					<key>roseSaveCrashLogs</key>
+					<integer>1</integer>
+				</dict>
+				<key>com.apple.proximity</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Default</string>
+							<key>Persist</key>
+							<string>Default</string>
+						</dict>
+						<key>Privacy-Enable-Level</key>
+						<string>Private</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>PayloadContent</key>
+			<array>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>roseEnableFirmwareLogs</key>
+						<integer>1</integer>
+						<key>roseSaveCrashLogs</key>
+						<integer>1</integer>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>com.apple.nearbyd</string>
+				</dict>
+			</array>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.defaults.2</string>
+			<key>PayloadType</key>
+			<string>com.apple.defaults.managed</string>
+			<key>PayloadUUID</key>
+			<string>19697DD4-A896-4B5C-905B-F0D5693F0A9D</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadContent</key>
+			<array>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>debug.install.logging.applet</key>
+						<true/>
+						<key>debug.logging.profile.to.install</key>
+						<string>Development</string>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>com.apple.seserviced</string>
+				</dict>
+			</array>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.defaults.3</string>
+			<key>PayloadType</key>
+			<string>com.apple.defaults.managed</string>
+			<key>PayloadUUID</key>
+			<string>18A99FBF-C686-4CD3-82CE-4F846762E7D4</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Enables All Logging for Digital Car Key Technologies</string>
+	<key>PayloadDisplayName</key>
+	<string>Digital Car Key Logging Profile for Enhanced Logging</string>
+	<key>PayloadIdentifier</key>
+	<string>com.apple.wallet.logging</string>
+	<key>PayloadOrganization</key>
+	<string>Apple Inc.</string>
+	<key>PayloadRebootSuggested</key>
+	<true/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>5700F594-0610-4268-8174-5000EC00B90C</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>RemovalDate</key>
+	<date>2023-04-30T07:00:00Z</date>
+</dict>
+</plist>
+†Ç	s0Ç0Ç †π˚eëJòi0	*ÜHÜ˜ 0b10	UUS10U
+
+Apple Inc.1&0$UApple Certification Authority10UApple Root CA0130524174337Z280524174337Z0Åå1@0>U7Apple Application Integration 2 Certification Authority1&0$UApple Certification Authority10U
+
+Apple Inc.10	UUS0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ∏H°glVùÂp≈FÙØÖ„Ω:ﬁ°ÁŸ®6<b•|†G≥kÅ¨˛ÿtÊ5∞XOtÿ£˛Ì-Ó§s%Y‘ñ‹&œù'ãTú‹í±‡3bô»πØ6§jÅëßm››-ÃÅ}Ã)â£…ô™¢ÏŸgi<øD($±ƒ,5÷± %ÔPß€%∆√Oo[áæ*Òìß‘l^≤9.©·m;Æ9q?ÛπÙWù# OôÉ^üXæµ—Ï◊≤~¬e‚ÒÏ<¶¸n€V≥Ó
+≤K…¢Ò1ˆÆﬁ5l√Ä^Pcê∂∫m\¿„ü&ÉJﬁõ©∞Zo˚õkÅÏ›ﬂ2ﬁ¸.B¢ xZ◊ £Å¶0Å£0U˜æ|!`ë€={ÿ:2Åiﬂûlõ0Uˇ0ˇ0U#0Ä+–iGîv	˛Ùkç.@¶˜GM^0.U'0%0#†!†Ühttp://crl.apple.com/root.crl0Uˇ0
+*ÜHÜ˜cd 0	*ÜHÜ˜ Ç ïÕç˝§]ıÒ¿áIá›≥3ì≠Ñ–!ì„Ÿ÷⁄Ø	"Ç`<YBÒ-ì∂?ˇÙ*ÙÓjx¡.˚;LÆeCÀœ®Î=7êE/Jç®àk‚ö€Ôg∏Ò‰ÿÜqw”Ûâ‡Ø§Í(§?4ye6ÉTAq◊!‹PUEŒéº˜‹U–≥ (Q¨sQ¨yãní†7	a1/°—∫Î·\7¿ÿ—Á‡RB§îãˆ`"`|†¿?¡ïÖ’¬'c∞bVôÌ%ÙÃàôô‹T∑yËÅÖ8@¬πÌMb‘+ˆ)Òg°·çrwˆ†î+QàÑSÚÛí	ÑÛËø°&œ¸í7ª@0ÇS0Ç;†¿6üôk
+0	*ÜHÜ˜ 0Åå1@0>U7Apple Application Integration 2 Certification Authority1&0$UApple Certification Authority10U
+
+Apple Inc.10	UUS0201214200231Z231214200231Z0s1.0,U%AppleCare Profile Signing Certificate10UConfiguration Profiles10U
+
+Apple Inc.10	UUS0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ⁄˚ÒîE0H(Ï∂A§[˚B†JVﬂ˙LWÊ˝¯÷fˆ◊Ô√WW¿[khíü≥oÌRãtÈAjò≥ªQ¨wüÈñ˜;$ﬁ#¿Â∞ª§˝gB™b}œÒAÛ,≥!Çƒ˚—hsœ˚Íö“dÀt©P+ÒèÜ¸˚SÔõõfƒÇeÔ2›V`^"˛Ô—8â{HéáÙFØ…UôÜw.î◊N_á‹ñHûà$&uwY``ÈL5ıòÓ⁄z¯O›óø”ôr°ÎD;H“âéyõÂ»H'>¯ ìÿÚ÷Qn‹∞+˘l∑T⁄Á2ÑS•ˇQÜæ*i'•\?W∞ﬂ∫"zoS5S˚¢‘—"X‹/ £Çœ0ÇÀ0Uˇ0 0U#0Ä˜æ|!`ë€={ÿ:2Åiﬂûlõ0@+40200+0Ü$http://ocsp.apple.com/ocsp04-aaica020ÇU Ç0Ç0Å˛	*ÜHÜ˜cd0Å0(+http://www.apple.com/appleca0Å√+0Å∂Å≥Reliance on this certificate by any party assumes acceptance of the then applicable standard terms and conditions of use, certificate policy and certification practice statements.0U%ˇ0	*ÜHÜ˜cd0U9Sˆ«G`‘∆?£l%áÍ$%∫∑0UˇÄ0	*ÜHÜ˜ Ç Sﬂ3Áh¬-3=%‡¨qëdŸERñ˜ﬂ˘æ)?nCÿŒÚ,õ]∂OLE.Ü|g#ÊQg%á«ºì™ÎKú∑ ÁS•OÔp4É⁄æô≤’Î(˜∏ÃÊsæ¶Ê@ƒÁ0AF Ôt,ThœEißì|‡‡ﬁé⁄:Kéq˜€¯∑…Ñıy¨[$G…ç¯≠§Hﬁ÷‹Üw+˜p ò•A•]z ]ùÔÜÚÈ/˚ˆìtÓP¯Soø≠ƒ|√Il”VæÈë*Ü‰<»ÁÃ»óÔ¯Øf∞3∆5ús∏x¶cPbbã…UÇ¥V◊&Ò¶üËvπ†|:Ø"–Åâh≈≤1Ç?0Ç;†9Sˆ«G`‘∆?£l%áÍ$%∫∑0	`ÜHe0	*ÜHÜ˜ Ç X˘döS Õj±:py£Ó	·è`Øùú«t[”≠ﬂÙÕ¥∆T»è9ÿ@jôh‚ƒ‹Í#G…À§KM¬jbDﬂ¢{<R’=hE∑m{bzdÉ@
+‘ôπ€Ï≈&¯)/<ùùu√w˝0≠√:√Ó*˚∞•F?Ùoâ©âW£*®°¥¢´«;-P¬8·ªD7K??‘ãÚl á
+õQØÔª:)∆q·≠H¢R"#'FxZP64øìÜ.s<î5Êﬁ>=˜rŸ —îá|Ÿ3Äå⁄k˛ŒcJ∏˝™B˚´ÛÊäﬁÌá†Wdƒùúhòµ`»a‚ûß"Øcı4”≈‘—p4Ã»jÔ$)∆`]”â'˙
