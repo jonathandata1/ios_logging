@@ -16,45 +16,57 @@
 
 # What's included
 
-- AccountsAuthKit.mobileconfig
-- AdPlatformsLogging.mobileconfig
-- AirTags.mobileconfig
-- AppSSO.mobileconfig
-- Baseband.mobileconfig
-- BatteryLife.mobileconfig
-- CalendarReminders.mobileconfig
-- ClassroomDebug.mobileconfig
-- CloudKit.mobileconfig
-- DataAccess.mobileconfig
-- FSMetadata.mobileconfig
-- GSSDebugProfile.mobileconfig
-- HealthKit.mobileconfig
-- Home.mobileconfig
-- Launch_Hang_Diagnostics.mobileconfig
-- ManagedConfiguration.mobileconfig
-- MegaWifiProfile.mobileconfig
-- NotesDebugLogging.mobileconfig
-- PerformanceTrace.mobileconfig
-- Photos_iOS.mobileconfig
-- SignificantLocations.mobileconfig
-- Spotlight.mobileconfig
-- StreamLoggingWithConsent.mobileconfig
-- TestFlightLoggingProfile.mobileconfig
-- TouchID.mobileconfig
-- UI_Hang_Diagnostics.mobileconfig
-- VPN.mobileconfig
-- WalletFull.mobileconfig
-- carplay.mobileconfig
-- iCloudBackup.mobileconfig
-- iCloudDrive.mobileconfig
-- iCloudKeyValue.mobileconfig
-- iOSBluetoothLogging.mobileconfig
-- iWorkDiagnosticsProfile.mobileconfig
-- iapd_debug_profile.mobileconfig
-- itmsdebugging.mobileconfig
-- loggingiOS.mobileconfig
-- mDNSResponder.mobileconfig
-- promotedcontent.mobileconfig
+AccountsAuthKit.mobileconfig
+AdPlatformsLogging.mobileconfig
+AirTags.mobileconfig
+AppSSO.mobileconfig
+AppleConfigurator.mobileconfig
+Baseband.mobileconfig
+BatteryLife.mobileconfig
+CFNetworkDiagnostics.mobileconfig
+CalendarReminders.mobileconfig
+ClassroomDebug.mobileconfig
+CloudKit.mobileconfig
+DataAccess.mobileconfig
+Digital_Car_Key.mobileconfig
+FSMetadata.mobileconfig
+GSSDebugProfile.mobileconfig
+HealthKit.mobileconfig
+Home.mobileconfig
+Launch_Hang_Diagnostics.mobileconfig
+LocationAndMotion.mobileconfig
+ManagedConfiguration.mobileconfig
+MegaWifiProfile.mobileconfig
+MobileMail.mobileconfig
+NotesDebugLogging.mobileconfig
+PerformanceTrace.mobileconfig
+Photos_iOS.mobileconfig
+ProximityReader.mobileconfig
+ReportMemoryException.mobileconfig
+SignificantLocations.mobileconfig
+SiriDebugLogging.mobileconfig
+Spotlight.mobileconfig
+StreamLoggingWithConsent.mobileconfig
+SwiftPreviews.mobileconfig
+TailspinProfile.mobileconfig
+TestFlightLoggingProfile.mobileconfig
+TouchID.mobileconfig
+UI_Hang_Diagnostics.mobileconfig
+VPN.mobileconfig
+WalletFull.mobileconfig
+carplay.mobileconfig
+iCloudBackup.mobileconfig
+iCloudDrive.mobileconfig
+iCloudKeyValue.mobileconfig
+iOSBluetoothLogging.mobileconfig
+iWorkDiagnosticsProfile.mobileconfig
+iapd_debug_profile.mobileconfig
+intercomlogging.mobileconfig
+itmsdebugging.mobileconfig
+loggingiOS.mobileconfig
+mDNSResponder.mobileconfig
+mapslogging.mobileconfig
+promotedcontent.mobileconfig
 
 # Tools needed
  1. `brew install libimobiledevice`
